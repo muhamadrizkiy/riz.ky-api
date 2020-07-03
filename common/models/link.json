@@ -1,0 +1,34 @@
+{
+  "name": "link",
+  "base": "PersistedModel",
+  "plural": "link",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "status": {
+      "type": "string",
+      "default": "enable"
+    },
+    "linkUrl": {
+      "type": "string"
+    },
+    "shortedUrl": {
+      "type": "string"
+    },
+    "generated_by": {
+      "type": "string"
+    },
+    "ts": {
+      "type": "date",
+      "default": "$now"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    
+  ],
+  "methods": {}
+}

@@ -29,7 +29,9 @@
     }
   },
   "session": {},
-  "auth": {},
+  "auth": {
+  
+  },
   "parse": {},
   "routes": {
     "loopback#rest": {

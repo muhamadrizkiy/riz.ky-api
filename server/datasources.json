@@ -2,5 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongodb": {
+    "database": "rizky_db_dev",
+    "name": "mongodb",
+    "connector": "mongodb",
+    "port": 27017,
+    "host": "localhost"
+
   }
 }

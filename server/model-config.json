@@ -14,7 +14,7 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongodb"
   },
   "AccessToken": {
     "dataSource": "db",
@@ -34,5 +34,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "link": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
